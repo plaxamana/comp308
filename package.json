@@ -2,10 +2,16 @@
   "name": "comp308-w2018-lesson1",
   "version": "1.0.0",
   "description": "Node and Express Demo For COMP308",
+  "repository": {
+    "url": "github.com/plaxamana/comp308.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Philip Laxamana <philip.laxamana@hotmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
